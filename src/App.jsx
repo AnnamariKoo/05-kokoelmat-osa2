@@ -1,8 +1,4 @@
-// import { useState } from "react";
-
-// import "./index.css";
 import { useState, useEffect } from "react";
-import axios from "axios";
 import Note from "./components/Note";
 import noteService from "./services/notes";
 
@@ -28,7 +24,7 @@ const App = () => {
       })
 
       .catch((error) => {
-        alert(`the note '${note.content}' was already deleted from server`);
+        alert(`the note '${note.content}' was already deleted from server!`);
         setNotes(notes.filter((n) => n.id !== id));
       });
   };
