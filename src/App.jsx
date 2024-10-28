@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Note from "./components/Note";
 import Notification from "./components/Notification";
+import Footer from "./components/Footer";
 import noteService from "./services/notes";
 
 const App = () => {
@@ -60,7 +61,10 @@ const App = () => {
       <h1>Notes</h1>
       <Notification message={errorMessage} />
       <div>
-        <button onClick={() => setShowAll(!showAll)}>
+        <button
+          className="importanceButton"
+          onClick={() => setShowAll(!showAll)}
+        >
           show {showAll ? "important" : "all"}
         </button>
       </div>
@@ -75,8 +79,11 @@ const App = () => {
       </ul>
       <form onSubmit={addNote}>
         <input value={newNote} onChange={handleNoteChange} />
-        <button type="submit">save</button>
+        <button className="saveButton" type="submit">
+          save
+        </button>
       </form>
+      <Footer />
     </div>
   );
 };
