@@ -18,7 +18,7 @@
     {
       "id": "a789",
       "content": "This is important",
-      "important": true
+      "important": false
     }
   ]
 }

@@ -1,0 +1,31 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgb(247, 213, 109);
+}
+
+h1 {
+  border-bottom: solid 1px black;
+}
+
+.note {
+  list-style-type: none;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: solid 0.5px black;
+  background-color: rgb(254, 252, 225);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.8rem;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(246, 192, 139);
+  cursor: pointer;
+}

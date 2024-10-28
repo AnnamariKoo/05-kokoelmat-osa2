@@ -1,6 +1,6 @@
 // import { useState } from "react";
 
-import "./App.css";
+// import "./index.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Note from "./components/Note";
