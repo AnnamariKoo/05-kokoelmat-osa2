@@ -18,7 +18,17 @@
     {
       "id": "a789",
       "content": "This is important",
+      "important": true
+    },
+    {
+      "id": "2d32",
+      "content": "This is not important",
       "important": false
+    },
+    {
+      "id": "d7c0",
+      "content": "Javascript != Java",
+      "important": true
     }
   ]
 }

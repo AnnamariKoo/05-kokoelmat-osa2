@@ -45,7 +45,7 @@ const App = () => {
     };
 
     noteService.create(noteObject).then((returnedNote) => {
-      setNotes(notes.map((note) => (note.id !== id ? note : returnedNote)));
+      setNotes(notes.concat(returnedNote));
       setNewNote("");
     });
   };
