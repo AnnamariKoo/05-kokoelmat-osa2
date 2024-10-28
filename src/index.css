@@ -29,3 +29,13 @@ button:hover {
   background-color: rgb(246, 192, 139);
   cursor: pointer;
 }
+
+.error {
+  color: red;
+  background: rgb(254, 252, 225);
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
